@@ -4,10 +4,16 @@
 var logEvenNums = function(num) {
     var even = []
     for (let i = 0; i < num; i++) {
-        if (i % 2 === 0) {
-            even.push(i)
+        if (i % 2 == 0) {
+         even.push(i);
+            // console.log(even)
 
         }
-        console.log(even);
+        // console.log(even)
+        
     }
+     
+    console.log(even);
+       
 };
+// console.log(even)
